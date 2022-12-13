@@ -101,7 +101,7 @@ async function start() {
 }
 
 function loadLabeledImages() {
-  const labels = ['서현','오예준', '태연']
+  const labels = ['서현','오예준', '태연', '티파니' ]
   return Promise.all(
     labels.map(async label => {
       const descriptions = []
